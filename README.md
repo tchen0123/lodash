@@ -22,10 +22,8 @@ In Node.js/io.js:
 ```js
 // load the modern build
 var _ = require('lodash');
-
 // or a method category
 var array = require('lodash/array');
-
 // or a method
 var chunk = require('lodash/array/chunk');
 ```
@@ -48,7 +46,7 @@ lodash is also available in a variety of other builds & module formats.
 
  * ~100% [code coverage](https://coveralls.io/r/lodash)
  * Follows [semantic versioning](http://semver.org/) for releases
- * Deferred chaining & [lazy evaluation](http://filimanjaro.com/blog/2014/introducing-lazy-evaluation/)
+ * [Lazily evaluated](http://filimanjaro.com/blog/2014/introducing-lazy-evaluation/) chaining
  * [_(…)](https://lodash.com/docs#_) supports intuitive chaining
  * [_.ary](https://lodash.com/docs#ary) & [_.rearg](https://lodash.com/docs#rearg) to change function argument limits & order
  * [_.at](https://lodash.com/docs#at) for cherry-picking collection values
