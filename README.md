@@ -7,3 +7,17 @@ Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):
 $ lodash modularize modern exports=amd -o ./
 $ lodash modern exports=amd -d -o ./main.js
 ```
+
+## Installation
+
+Defining a build as `'lodash'`.
+
+```js
+require({
+  'packages': [
+    { 'name': 'lodash', 'location': 'path/to/lodash' }
+  ]
+}, ['lodash/array/chunk'], function(chunk) {
+  // use `chunk`
+});
+```
